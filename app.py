@@ -138,7 +138,7 @@ EXPORT_DIR = "cifar10_model"  # folder containing cifar10_model.keras and labels
 
 # Load model (Keras 3 format)
 # Model path (same folder)
-model_path = "cifar10_model.keras"
+model_path = "model.h5"
 
 # Load model
 model = tf.keras.models.load_model(model_path)
