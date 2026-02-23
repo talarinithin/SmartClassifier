@@ -9,6 +9,7 @@ from PIL import Image
 import json
 import os
 
+port = int(os.environ.get("PORT", 8501))
 # -------------------------------
 # 1️⃣ Page config
 # -------------------------------
